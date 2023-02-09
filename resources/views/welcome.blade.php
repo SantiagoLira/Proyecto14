@@ -21,9 +21,7 @@
 </head>
 
 <body id="page-top">
-<button type="button" class="btn btn-xl btn-floating" id="btn-back-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </button>
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
@@ -218,7 +216,11 @@
         </div>
 
     </section>
-    
+
+    <button type="button" class="btn btn-xl btn-floating" id="btn-back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
     <!-- Footer-->
     <footer class="bg-light py-5">
 
