@@ -21,6 +21,9 @@
 </head>
 
 <body id="page-top">
+<button type="button" class="btn btn-xl btn-floating" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
@@ -67,7 +70,7 @@
     <!-- motivos-->
     <section class="page-section" id="motivos">
         <div class="container px-4 px-lg-5 ">
-            <h2 class="text-center mt-0">Mis motivos</h2>
+            <h2 class="text-center">Mis motivos</h2>
             <hr class="divider" />
             <p class="text-muted mb-0 text-center">Algunas de las cosas que todos los dias extraño solo un poquito</p>
             <div class="row gx-4 gx-lg-5 align-items-center justify-content-center">
@@ -215,8 +218,10 @@
         </div>
 
     </section>
+    
     <!-- Footer-->
     <footer class="bg-light py-5">
+
         <div class="container px-4 px-lg-5">
             <div class="small text-center text-muted">Copyright &copy; - Edgar Lira</div>
         </div>
