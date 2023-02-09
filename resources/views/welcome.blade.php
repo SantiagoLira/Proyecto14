@@ -133,7 +133,7 @@
     </section>
     <!-- Recuerdos-->
     <div id="portfolio">
-        <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center" >
+        <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center">
             <div class="row g-0">
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
@@ -199,10 +199,19 @@
     <!-- Spotify-->
     <section class="page-section" id="Spotify">
         <div class="col-lg-8 text-center container px-4 px-lg-5 ">
+
             <h2 class="text-center mt-0">Tu playlist</h2>
             <hr class="divider" />
             <p class="text-muted mb-0 text-center">No te burles, es solo que con ellas luego me pongo a soñar</p>
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4imlqNP4oXdB7K1k8o5Pjf?utm_source=generator" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        </div>
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center mt-4">
+                    <a class="btn btn-primary btn-xl" href="#page-top">Inicio</a>
+                </div>
+            </div>
         </div>
 
     </section>
