@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Mi Regalo</title>
+    <title>Tu Regalo</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/amor.png" />
     <!-- Bootstrap Icons-->
@@ -203,16 +203,9 @@
 
             <h2 class="text-center mt-0">Tu playlist</h2>
             <hr class="divider" />
-            <p class="text-muted mb-0 text-center">No te burles, es solo que con ellas luego me pongo a soñar</p>
+            <p class="text-muted mb-0 text-center">Son unas canciones que se me vinieron a la mente cuando te pense</p>
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4imlqNP4oXdB7K1k8o5Pjf?utm_source=generator" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-        </div>
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center mt-4">
-                    <a class="btn btn-primary btn-xl" href="#page-top">Inicio</a>
-                </div>
-            </div>
         </div>
 
     </section>
