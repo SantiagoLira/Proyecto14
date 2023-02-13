@@ -11467,3 +11467,23 @@ header.masthead h1, header.masthead .h1 {
   background-color: rgb(88, 214, 141);
   border-color: #f4623a;
 }
+
+.floating-spotify-player {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.stop-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+  }

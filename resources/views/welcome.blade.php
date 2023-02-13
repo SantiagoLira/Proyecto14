@@ -21,7 +21,7 @@
 </head>
 
 <body id="page-top">
-
+    <audio id="background-music" src="assets\audio\fondo.mp3" loop></audio>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container px-4 px-lg-5">
@@ -42,158 +42,162 @@
         <div class="container px-4 px-lg-5 h-100">
             <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-8 align-self-end">
+                    <a class="btn btn-danger btn-xl mb-2" onclick="reproducir()">
+                        <i class="bi bi-music-note-beamed"></i>
+                    </a>
                     <h1 class="text-white font-weight-bold">Mi lugar favorito es contigo</h1>
                     <hr class="divider" />
                 </div>
                 <div class="col-lg-8 align-self-baseline">
                     <p class="text-white-75 mb-5">Cada que la luna te vea, te dira cuanto te quiero y cuando sepa donde estas te ilumine con su luz para nunca estar en la oscuridad </p>
-                    <a class="btn btn-primary btn-xl" href="#frase">Continua</a>
+                    <a class="btn btn-primary btn-xl" href="#frase" ">Continua</a>
                 </div>
             </div>
         </div>
     </header>
     <!-- frase-->
-    <section class="page-section bg-primary" id="frase">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">colgaré un letrero en la luna que diga</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-white-75 mb-4">"Gracias dios por tu presencia, por tu dulce compañia!"</p>
-                    <a class="btn btn-light btn-xl" href="#motivos">Continua</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- motivos-->
-    <section class="page-section" id="motivos">
-        <div class="container px-4 px-lg-5 ">
-            <h2 class="text-center">Mis motivos</h2>
-            <hr class="divider" />
-            <p class="text-muted mb-0 text-center">Algunas de las cosas que todos los dias extraño solo un poquito</p>
-            <div class="row gx-4 gx-lg-5 align-items-center justify-content-center">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <img class="img-fluid" src="assets/img/motivos/labios.png" alt="..." />
+    <section class=" page-section bg-primary" id="frase">
+                        <div class="container px-4 px-lg-5">
+                            <div class="row gx-4 gx-lg-5 justify-content-center">
+                                <div class="col-lg-8 text-center">
+                                    <h2 class="text-white mt-0">colgaré un letrero en la luna que diga</h2>
+                                    <hr class="divider divider-light" />
+                                    <p class="text-white-75 mb-4">"Gracias dios por tu presencia, por tu dulce compañia!"</p>
+                                    <a class="btn btn-light btn-xl" href="#motivos">Continua</a>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="h4 mb-2">Tu risa</h3>
-                        <p class="text-muted mb-0">Escuchar esa voz que agita mi alma y esa risa que me hacer sentir que todo esta bien</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <img class="img-fluid" src="assets/img/motivos/love.png" alt="..." />
+                        </section>
+                        <!-- motivos-->
+                        <section class="page-section" id="motivos">
+                            <div class="container px-4 px-lg-5 ">
+                                <h2 class="text-center">Mis motivos</h2>
+                                <hr class="divider" />
+                                <p class="text-muted mb-0 text-center">Algunas de las cosas que todos los dias extraño solo un poquito</p>
+                                <div class="row gx-4 gx-lg-5 align-items-center justify-content-center">
+                                    <div class="col-lg-3 col-md-6 text-center">
+                                        <div class="mt-5">
+                                            <div class="mb-2">
+                                                <img class="img-fluid" src="assets/img/motivos/labios.png" alt="..." />
+                                            </div>
+                                            <h3 class="h4 mb-2">Tu risa</h3>
+                                            <p class="text-muted mb-0">Escuchar esa voz que agita mi alma y esa risa que me hacer sentir que todo esta bien</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 text-center">
+                                        <div class="mt-5">
+                                            <div class="mb-2">
+                                                <img class="img-fluid" src="assets/img/motivos/love.png" alt="..." />
+                                            </div>
+                                            <h3 class="h4 mb-2">Tus abrazos</h3>
+                                            <p class="text-muted mb-0">Darnos un abrazo donde pueda olvidar los malos momentos</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 text-center">
+                                        <div class="mt-5">
+                                            <div class="mb-2">
+                                                <img class="img-fluid" src="assets/img/motivos/dar-amor.png" alt="..." />
+                                            </div>
+                                            <h3 class="h4 mb-2">Tus manos</h3>
+                                            <p class="text-muted mb-0">Poder tomar tus pequeñas manos con discreción</p>
+                                        </div>
+                                    </div>
+
+                                    <button type="button" class="btn btn-primary btn-xl mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Ver más Motivos
+                                    </button>
+                                    <div class="col-lg-8 text-center mt-4">
+                                        <a class="btn btn-primary btn-xl" href="#portfolio">Continua</a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Más Motivos</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Ups, Algo salío mal...
+
+                                            Para saber los demás motivos contactarse con el soporte de esta página :D
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </section>
+                        <!-- Recuerdos-->
+                        <div id="portfolio">
+                            <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center">
+                                <div class="row gx-4 gx-lg-5 justify-content-center">
+                                    <div class="col-lg-8 text-center">
+                                        <video class="img-fluid" autoplay loop muted>
+                                            <source src="assets\img\videos\vid1.mp4" type="video/mp4" />
+                                        </video>
+                                    </div>
+
+                                </div>
+                                <div class="row gx-4 gx-lg-5 justify-content-center">
+                                    <div class="col-lg-8 text-center">
+                                        <video class="img-fluid" autoplay loop muted>
+                                            <source src="assets\img\videos\vid2.mp4" type="video/mp4" />
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 text-center mt-4">
+                                    <a class="btn btn-primary btn-xl" href="#Spotify">Continua</a>
+                                </div>
+                            </div>
                         </div>
-                        <h3 class="h4 mb-2">Tus abrazos</h3>
-                        <p class="text-muted mb-0">Darnos un abrazo donde pueda olvidar los malos momentos</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="mt-5">
-                        <div class="mb-2">
-                            <img class="img-fluid" src="assets/img/motivos/dar-amor.png" alt="..." />
-                        </div>
-                        <h3 class="h4 mb-2">Tus manos</h3>
-                        <p class="text-muted mb-0">Poder tomar tus pequeñas manos con discreción</p>
-                    </div>
-                </div>
 
-                <button type="button" class="btn btn-primary btn-xl mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Ver más Motivos
-                </button>
-                <div class="col-lg-8 text-center mt-4">
-                    <a class="btn btn-primary btn-xl" href="#portfolio">Continua</a>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Más Motivos</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        Ups, Algo salío mal...
-
-                        Para saber los demás motivos contactarse con el soporte de esta página :D
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        <!-- Spotify-->
+                        <section class="page-section" id="Spotify">
+                            <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center">
 
 
-    </section>
-    <!-- Recuerdos-->
-    <div id="portfolio">
-        <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <video class="img-fluid" autoplay loop muted>
-                        <source src="assets\img\videos\vid1.mp4" type="video/mp4" />
-                    </video>
-                </div>
+                                <h2 class="text-center mt-0">Tu playlist</h2>
+                                <hr class="divider" />
+                                <p class="text-muted mb-0 text-center">Son unas canciones que se me vinieron a la mente cuando te pense</p>
+                                <br>
+                                <br>
+                                <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4imlqNP4oXdB7K1k8o5Pjf?autoplay=true" width="80%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+                                <iframe id="spotify-player" src="https://open.spotify.com/embed/playlist/4imlqNP4oXdB7K1k8o5Pjf?autoplay=true" width="300" height="380" frameborder="0" allowtransparency="true" allow="autoplay"></iframe>
+                            </div>
 
-            </div>
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <video class="img-fluid" autoplay loop muted>
-                        <source src="assets\img\videos\vid2.mp4" type="video/mp4" />
-                    </video>
-                </div>
-            </div>
-            <div class="col-lg-8 text-center mt-4">
-                <a class="btn btn-primary btn-xl" href="#Spotify">Continua</a>
-            </div>
-        </div>
-    </div>
+                        </section>
 
-    <!-- Spotify-->
-    <section class="page-section" id="Spotify">
-        <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center">
-        
+                        <button type="button" class="btn btn-xl btn-floating" id="btn-back-to-top">
+                            <i class="bi bi-arrow-up"></i>
+                        </button>
 
-            <h2 class="text-center mt-0">Tu playlist</h2>
-            <hr class="divider" />
-            <p class="text-muted mb-0 text-center">Son unas canciones que se me vinieron a la mente cuando te pense</p>
-            <br>
-            <br>
-            <iframe style="border-radius:12px" autoplay loop src="https://open.spotify.com/embed/playlist/4imlqNP4oXdB7K1k8o5Pjf?utm_source=generator" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <!-- Footer-->
+                        <footer class="bg-light py-5">
 
-        </div>
+                            <div class="container px-4 px-lg-5">
+                                <div class="small text-center text-muted">Copyright &copy; - Edgar Lira</div>
+                            </div>
+                        </footer>
 
-    </section>
 
-    <button type="button" class="btn btn-xl btn-floating" id="btn-back-to-top">
-        <i class="bi bi-arrow-up"></i>
-    </button>
+                        <!-- Bootstrap core JS-->
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+                        <!-- SimpleLightbox plugin JS-->
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
 
-    <!-- Footer-->
-    <footer class="bg-light py-5">
+                        <!-- Core theme JS-->
+                        <script src="js/scripts.js"></script>
+                        <!-- * *                               SB Forms JS                               * *-->
+                        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
-        <div class="container px-4 px-lg-5">
-            <div class="small text-center text-muted">Copyright &copy; - Edgar Lira</div>
-        </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- SimpleLightbox plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
