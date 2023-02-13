@@ -93,6 +93,13 @@ function backToTop() {
 function reproducir(){
     //para reproducir musica de fondo
     var backgroundMusic = document.getElementById("background-music");
+    var toggleButton = document.getElementById("toggle-music");
         backgroundMusic.volume = 0.1;
-        backgroundMusic.play();
+        if (backgroundMusic.paused) {
+            backgroundMusic.play();
+            toggleButton.innerHTML = '<i class="bi bi-pause-fill"></i> pause';
+          } else {
+            backgroundMusic.pause();
+            toggleButton.innerHTML = '<i class="bi bi-music-note-beamed"></i> play';
+          }
 }

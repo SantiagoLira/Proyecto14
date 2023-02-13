@@ -42,8 +42,8 @@
         <div class="container px-4 px-lg-5 h-100">
             <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                 <div class="col-lg-8 align-self-end">
-                    <a class="btn btn-danger btn-xl mb-2" onclick="reproducir()">
-                        <i class="bi bi-music-note-beamed"></i>
+                    <a class="btn btn-danger btn-xl mb-2" id="toggle-music" onclick="reproducir()">
+                        <i class="bi bi-music-note-beamed"></i> play
                     </a>
                     <h1 class="text-white font-weight-bold">Mi lugar favorito es contigo</h1>
                     <hr class="divider" />
