@@ -31,7 +31,7 @@
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#frase">Mi Luna</a></li>
                     <li class="nav-item"><a class="nav-link" href="#motivos">Motivos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">Recuerdo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Clips</a></li>
                     <li class="nav-item"><a class="nav-link" href="#Spotify">Tu Playlist</a></li>
                 </ul>
             </div>
@@ -135,60 +135,19 @@
     <!-- Recuerdos-->
     <div id="portfolio">
         <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center">
-            <div class="row g-0">
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Recuerdo</div>
-                            <div class="project-name">1</div>
-                        </div>
-                    </a>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="assets\img\videos\vid1.mp4" type="video/mp4" />
+                    </video>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Recuerdo</div>
-                            <div class="project-name">2</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Recuerdo</div>
-                            <div class="project-name">3</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Recuerdo</div>
-                            <div class="project-name">4</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-category text-white-50">Recuerdo</div>
-                            <div class="project-name">5</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
-                        <div class="portfolio-box-caption p-3">
-                            <div class="project-category text-white-50">Recuerdo</div>
-                            <div class="project-name">6</div>
-                        </div>
-                    </a>
+
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <video class="img-fluid" autoplay loop muted>
+                        <source src="assets\img\videos\vid2.mp4" type="video/mp4" />
+                    </video>
                 </div>
             </div>
             <div class="col-lg-8 text-center mt-4">
@@ -199,12 +158,15 @@
 
     <!-- Spotify-->
     <section class="page-section" id="Spotify">
-        <div class="col-lg-8 text-center container px-4 px-lg-5 ">
+        <div class="container-fluid p-0 row gx-4 gx-lg-5 align-items-center justify-content-center">
+        
 
             <h2 class="text-center mt-0">Tu playlist</h2>
             <hr class="divider" />
             <p class="text-muted mb-0 text-center">Son unas canciones que se me vinieron a la mente cuando te pense</p>
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4imlqNP4oXdB7K1k8o5Pjf?utm_source=generator" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br>
+            <br>
+            <iframe style="border-radius:12px" autoplay loop src="https://open.spotify.com/embed/playlist/4imlqNP4oXdB7K1k8o5Pjf?utm_source=generator" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
         </div>
 
