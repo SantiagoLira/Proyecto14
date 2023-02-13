@@ -124,7 +124,7 @@
                                         <div class="modal-body">
                                             Ups, Algo salío mal...
 
-                                            Para saber los demás motivos contactarse con el soporte de esta página :D
+                                            Para saber los demás motivos contactarse con el creador de esta página :D
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
